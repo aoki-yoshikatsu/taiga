@@ -5,6 +5,6 @@
 5.みかん
 6.いちご
 7.くり
-8.もも
+8.すもも
 hello git!
 branch test! 
