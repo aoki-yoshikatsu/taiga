@@ -1,0 +1,850 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブラウザの設定：BIGLOBE会員サポート</title>
+    <meta name="keywords"
+          content="BIGLOBE会員サポート">
+    <meta name="description" content="ブラウザの設定をご説明します。">
+    <link rel="canonical" href="https://support.biglobe.ne.jp/settei/browser/">
+    <link rel="apple-touch-icon" sizes="180x180" href="/v3/image/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/v3/image/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/v3/image/favicons/favicon-16x16.png">
+<link rel="manifest" href="/v3/image/favicons/manifest.json">
+<link rel="mask-icon" href="/v3/image/favicons/safari-pinned-tab.svg" color="#3a77ce">
+<meta name="theme-color" content="#3a77ce">
+<meta name="msapplication-config" content="/v3/image/favicons/browserconfig.xml">
+
+    <link rel="stylesheet" href="/v3/css/common.css">
+    <link rel="stylesheet" href="/v3/css/support/common.css">
+    <script src="/v3/js/libs/jquery-3.2.1.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+<!--ヘッダーここから-->
+<div id="v3-header">
+    <div class="c-v3-header--page-support">
+        <header>
+<div class="c-v3-header">
+<div class="c-v3-header__top">
+<div class="c-v3-header__logo">
+<div class="c-v3-header__logo__biglobe">
+<a href="https://support.biglobe.ne.jp/?cl=head_logo">
+<img src="/v3/image/header/biglobe.png" alt="BIGLOBE">
+</a>
+</div><!--<div class="c-v3-header__logo__campaign">-->
+<!--</div>-->
+</div>
+<ul class="c-v3-header__out">
+<li><a href="https://www.biglobe.ne.jp/?cl=head_utility_portal" target="_blank" class="c-v3-header__out-link">BIGLOBE トップ</a></li>
+<li><a href="https://biz.biglobe.ne.jp/?cl=head_utility_office" target="_blank" class="c-v3-header__out-link">法人向けサービス</a></li>
+<li>
+<a href="https://mypage.sso.biglobe.ne.jp/?cl=head_utility_mypage" target="_blank" class="c-v3-header__login">
+<img src="/v3/image/header/login.svg" alt="" class="c-v3-header__login__icon c-v3-header__login__icon--sp">
+<img src="/v3/image/header/login-white.png"
+srcset="/v3/image/header/login-white@2x.png 2x"
+alt="" class="c-v3-header__login__icon c-v3-header__login__icon--pc">
+<span class="c-v3-header__login__title">会員ログイン</span>
+</a>
+</li>
+</ul>
+<a href="" class="c-v3-header__nav-trigger" data-header-nav-trigger>
+<div class="c-v3-header__nav-trigger__icon"></div>
+<div class="c-v3-header__nav-trigger__title" data-header-nav-trigger-text="閉じる">
+メニュー
+</div>
+</a>
+</div><nav class="c-v3-header__nav" data-header-nav>
+<ul class="c-v3-header__nav1">
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--ftth">
+<a href="https://join.biglobe.ne.jp/ftth/?cl=head_ftth" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--ftth">光回線</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--ftth"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--ftth">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/ftth/?cl=head_ftth" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/ftth/$">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+トップ</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/ftth/hikari/?cl=head_ftth_hikari" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/ftth/hikari/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+ビッグローブ光</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/ftth/one/?cl=head_ftth_one" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/ftth/one/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+auひかり</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/ftth/flets/?cl=head_ftth_flets" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/ftth/flets/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+フレッツ光</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/eo_hikari/?cl=head_eo" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/eo_hikari/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+eo光(関西)</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/docomo_hikari/?cl=head_docomo" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/docomo_hikari/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+ドコモ光</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/ftth/commufa/?cl=head_ftth_commufa" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/ftth/commufa/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+コミュファ光(東海)</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/admission/kohen.html?cl=head_ftth_cource-change" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/admission/kohen(.html|/)">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+コース変更</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link" >
+<a href="https://support.biglobe.ne.jp/hikkosi/top/?cl=head_ftth_move" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link>
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+引越しナビ</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--ftth c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" >
+<a href="https://enjoy.sso.biglobe.ne.jp/?cl=head_enjoy-magazine" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--ftth c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="enjoy.sso.biglobe.ne.jp/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--ftth c-v3-header__nav2-title--link">
+エンジョイ！マガジン</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--ftth" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--iphone">
+<a href="https://join.biglobe.ne.jp/iphone/?cl=head_iphone" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--iphone">iPhone</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--iphone"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--iphone">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/iphone/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/$">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+トップ</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/iphone/se/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/se/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+iPhone SE</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/iphone/7/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/7/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+iPhone 7</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/iphone/6s/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/6s/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+iPhone 6s</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/iphone/plan/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/plan/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+特典・料金</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/iphone/option/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/option/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+オプション</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" data-header-nav2-trigger>
+<a href="https://join.biglobe.ne.jp/iphone/support/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/iphone/support/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--link">
+サポート</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--has-nav3 c-v3-header__nav2-arrow--has-nav3--iphone" data-header-nav2-arrow></span>
+</a>
+<ul class="c-v3-header__nav3 c-v3-header__nav3--iphone">
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--iphone">
+<a href="https://join.biglobe.ne.jp/iphone/support/applecare/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--iphone">
+<span class="c-v3-header__nav3-title">AppleCare+ for iPhone</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--iphone c-v3-header__nav2-item--offer" >
+<a href="https://join.biglobe.ne.jp/iphone/order/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--iphone c-v3-header__nav2-title-container--offer" data-header-nav2-link>
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--iphone c-v3-header__nav2-title--offer">
+お申し込み</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--offer c-v3-header__nav2-arrow--offer--iphone" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/?cl=head_mobile" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--mobile">格安SIM/スマホ</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--mobile"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--mobile">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/mobile/?cl=head_mobile_top" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/$">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+トップ</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/mobile/plan/?cl=head_mobile_plan" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/(plan|contents/au_sim)/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+料金プラン</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/mobile/device/?cl=head_mobile_device" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/device/(?!compatibility.html)">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+端末一覧</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/mobile/device/compatibility.html?cl=head_mobile_device_comp" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/(device/compatibility.html|contents/iphone/)">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+動作確認端末</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/mobile/option/?cl=head_mobile_option" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/(option|wifi)/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+オプション</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" data-header-nav2-trigger>
+<a href="https://join.biglobe.ne.jp/mobile/campaign/?cl=head_mobile_campain" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/campaign/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+キャンペーン</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--has-nav3 c-v3-header__nav2-arrow--has-nav3--mobile" data-header-nav2-arrow></span>
+</a>
+<ul class="c-v3-header__nav3 c-v3-header__nav3--mobile">
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/campaign/?cl=head_mobile_campain" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">キャンペーン一覧</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/campaign/sim/?cl=head_mobile_campain_sim" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">SIM入会特典</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/campaign/smp/?cl=head_mobile_campain_smp" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">スマホセット入会特典</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link" data-header-nav2-trigger>
+<a href="https://join.biglobe.ne.jp/mobile/support/?cl=head_mobile_support" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/support/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+ご利用サポート</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--has-nav3 c-v3-header__nav2-arrow--has-nav3--mobile" data-header-nav2-arrow></span>
+</a>
+<ul class="c-v3-header__nav3 c-v3-header__nav3--mobile">
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://support.biglobe.ne.jp/mobile/lte.html?cl=head_mobile_support_aftersuport" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">アフターサポート</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/support/?cl=head_mobile_support" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">はじめてナビ</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://support.biglobe.ne.jp/mobile/lte.html?cl=head_mobile_support_operation#procedure" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">各種お手続き</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://faq.support.biglobe.ne.jp/faq_list.html?category=1036&amp;cl=head_mobile_support_faq" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">よくあるご質問</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" data-header-nav2-trigger>
+<a href="https://join.biglobe.ne.jp/mobile/shop/?cl=head_mobile_shop" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/shop/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--link">
+店舗</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--has-nav3 c-v3-header__nav2-arrow--has-nav3--mobile" data-header-nav2-arrow></span>
+</a>
+<ul class="c-v3-header__nav3 c-v3-header__nav3--mobile">
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/shop/?cl=head_mobile_shop" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">店舗のご紹介</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--mobile">
+<a href="https://join.biglobe.ne.jp/mobile/shop/search.html?cl=head_mobile_shop_search" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--mobile">
+<span class="c-v3-header__nav3-title">店舗検索</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--button" >
+<a href="https://join.biglobe.ne.jp/mobile/plan/navigator/?cl=head_mobile_sim" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--button" data-header-nav2-link>
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--button">
+簡単プラン診断</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--button c-v3-header__nav2-arrow--button--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--mobile c-v3-header__nav2-item--offer" >
+<a href="https://join.biglobe.ne.jp/mobile/prepare/?cl=head_mobile_cv" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--mobile c-v3-header__nav2-title-container--offer" data-header-nav2-link>
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--mobile c-v3-header__nav2-title--offer">
+お申し込み</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--offer c-v3-header__nav2-arrow--offer--mobile" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--wimax">
+<a href="https://join.biglobe.ne.jp/mobile/wimax/?cl=head_wimax" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--wimax">WiMAX</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--wimax"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--wimax">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--wimax c-v3-header__nav2-item--link" >
+<a href="https://join.biglobe.ne.jp/mobile/wimax/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--wimax c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/mobile/wimax/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--wimax c-v3-header__nav2-title--link">
+WiMAX</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--wimax" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--wimax c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" >
+<a href="https://join.biglobe.ne.jp/uqmobile/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--wimax c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/uqmobile/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--wimax c-v3-header__nav2-title--link">
+BIGLOBE UQ mobile</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--wimax" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--service">
+<a href="https://join.biglobe.ne.jp/service/?cl=head_service" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--service">各種サービス</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--service"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--service">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--service c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" >
+<a href="https://join.biglobe.ne.jp/service/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--service c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/service/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--service c-v3-header__nav2-title--link">
+各種サービス</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--service" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--special">
+<a href="https://join.biglobe.ne.jp/campaign/?cl=head_campaign" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--special">お得な情報</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--special"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--special">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--special c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" >
+<a href="https://join.biglobe.ne.jp/campaign/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--special c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="(join.biglobe.ne.jp|localhost:[0-9]*)/campaign/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--special c-v3-header__nav2-title--link">
+キャンペーン情報</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--special" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="c-v3-header__nav1__item c-v3-header__nav1__item--support">
+<a href="https://support.biglobe.ne.jp/?cl=head_support" class="c-v3-header__nav1-title-container">
+<span class="c-v3-header__nav1-title c-v3-header__nav1-title--support">会員サポート</span>
+<span class="c-v3-header__nav1-arrow-clickable" data-header-nav1-arrow><span class="c-v3-header__nav1-arrow c-v3-header__nav1-arrow--support"></span></span>
+</a>
+<div class="c-v3-header__nav2-container c-v3-header__nav2-container--support">
+<ul class="c-v3-header__nav2">
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--support c-v3-header__nav2-item--link" >
+<a href="https://support.biglobe.ne.jp/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--support c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="^((?!faq.)(?!search.).*support.biglobe.ne.jp|localhost:[0-9]*)/$">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--support c-v3-header__nav2-title--link">
+トップ</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--support" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--support c-v3-header__nav2-item--link" data-header-nav2-trigger>
+<a href="https://support.biglobe.ne.jp/settei/index.html" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--support c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="^((?!faq.)(?!search.).*support.biglobe.ne.jp|localhost:[0-9]*)/(settei|ap|mobile/settei|ipv6|wifi)/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--support c-v3-header__nav2-title--link">
+設定方法</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--has-nav3 c-v3-header__nav2-arrow--has-nav3--support" data-header-nav2-arrow></span>
+</a>
+<ul class="c-v3-header__nav3 c-v3-header__nav3--support">
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/settei/setuzoku/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">インターネット接続設定</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/settei/mailinfo/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">メールの設定</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/settei/setuzoku/musenlan/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">無線LANの接続設定</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/settei/browser/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">ブラウザの設定</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--support c-v3-header__nav2-item--link" data-header-nav2-trigger>
+<a href="https://support.biglobe.ne.jp/jimu/index.html" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--support c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="^((?!faq.)(?!search.).*support.biglobe.ne.jp|localhost:[0-9]*)/(jimu|nyuryoku|download|bighikari|hikkosi)/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--support c-v3-header__nav2-title--link">
+各種手続き</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--has-nav3 c-v3-header__nav2-arrow--has-nav3--support" data-header-nav2-arrow></span>
+</a>
+<ul class="c-v3-header__nav3 c-v3-header__nav3--support">
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/idpw/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">BIGLOBE ID・パスワード</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/meisai/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">利用明細の確認</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/keiyaku/jimuchg.html" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">住所・電話番号の確認／変更</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/keiyaku/paychg/" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">支払方法の登録／確認／変更</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/keiyaku/coursechg.html" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">コース変更／速度・タイプ変更</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/keiyaku/mailaccount.html" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">メールアドレスの取得・確認／変更</span>
+</a>
+</li>
+<li class="c-v3-header__nav3-item c-v3-header__nav3-item--support">
+<a href="https://support.biglobe.ne.jp/jimu/keiyaku/osirasemail.html" class="c-v3-header__nav3-title-container c-v3-header__nav3-title-container--support">
+<span class="c-v3-header__nav3-title">メール受取設定の確認／変更</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--support c-v3-header__nav2-item--link" >
+<a href="https://faq.support.biglobe.ne.jp/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--support c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="faq.*support.biglobe.ne.jp/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--support c-v3-header__nav2-title--link">
+よくある質問</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--support" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--support c-v3-header__nav2-item--link" >
+<a href="https://support.biglobe.ne.jp/sitemap/index.html" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--support c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="^((?!faq.)(?!search.).*support.biglobe.ne.jp|localhost:[0-9]*)/sitemap/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--support c-v3-header__nav2-title--link">
+サポート内容一覧</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--support" data-header-nav2-arrow></span>
+</a>
+</li>
+<li class="c-v3-header__nav2-item c-v3-header__nav2-item--support c-v3-header__nav2-item--link c-v3-header__nav2-item--link--last" >
+<a href="https://support.biglobe.ne.jp/ask/" class="c-v3-header__nav2-title-container c-v3-header__nav2-title-container--support c-v3-header__nav2-title-container--link" data-header-nav2-link data-current="^((?!faq.)(?!search.).*support.biglobe.ne.jp|localhost:[0-9]*)/ask/">
+<span class="c-v3-header__nav2-title c-v3-header__nav2-title--support c-v3-header__nav2-title--link">
+お問い合わせ一覧</span>
+<span class="c-v3-header__nav2-arrow c-v3-header__nav2-arrow--link c-v3-header__nav2-arrow--link--support" data-header-nav2-arrow></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+        <!--ssi-->
+    </div>
+</div>
+<!--ヘッダーここまで-->
+
+<!--コンテンツここから-->
+<div id="v3" class="v3">
+    <div class="c-breadcrumb">
+        <div class="c-breadcrumb__content">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                    itemtype="http://schema.org/ListItem" class="c-breadcrumb__item">
+                    <a itemprop="item" href="/">
+                        <span itemprop="name">TOP</span></a>
+                    <meta itemprop="position" content="1">
+                </li>
+                <li itemprop="itemListElement" itemscope
+                    itemtype="http://schema.org/ListItem" class="c-breadcrumb__item">
+                    <a itemprop="item" href="/settei/">
+                        <span itemprop="name">各種設定方法</span></a>
+                    <meta itemprop="position" content="2">
+                </li>
+                <li itemprop="itemListElement" itemscope
+                    itemtype="http://schema.org/ListItem" class="c-breadcrumb__item">
+                    <h1 class="c-breadcrumb__page-title" itemprop="item"><span itemprop="name">ブラウザの設定</span></h1>
+                    <meta itemprop="position" content="3">
+                </li>
+            </ol>
+        </div>
+    </div>
+    <main id="main" class="p-contents-order">
+        <div class="p-contents-order__main">
+            <div class="p-solution-number">
+                <span class="p-solution-number__label">解決ナンバー：25000</span>
+            </div>
+
+            <div class="c-section">
+                <div class="c-section__content">
+                    <p class="c-h c-h--lv1">ブラウザの設定</p>
+
+                    <p class="u-mb20">
+                        各種ブラウザの設定方法をご案内します。
+                    </p>
+                                                            
+                    <p class="u-mb30">                        
+
+                    <div class="c-col c-col-sp1 c-col--pc2">
+                        <section class="c-col__item c-col--sp1__item c-col--pc2__item c-panel u-mb-sp30">
+                            <div class="c-panel__content">
+                                <h2 class="u-txt-weight-bold u-align-center u-mb20">Windows</h2>
+
+                                <p class="u-align-center u-mb20">
+                                    <a href="/settei/browser/edge/index.html" class="c-btn c-btn--detail p-panel-button">
+                                        Microsoft Edg
+                                    </a>
+                                </p>
+
+                                <p class="u-align-center u-mb20">
+                                    <a href="/settei/browser/chrome/index.html" class="c-btn c-btn--detail p-panel-button">
+                                        Chrome
+                                    </a>
+                                </p>
+
+                                <p class="u-align-center u-mb20">
+                                    <a href="/settei/browser/ie/index.html" class="c-btn c-btn--detail p-panel-button">
+                                        Internet Explorer
+                                    </a>
+                                </p>
+
+                                <p class="u-align-center u-mb20">
+                                    <a href="/settei/browser/firefox/index.html" class="c-btn c-btn--detail p-panel-button">
+                                        Firefox
+                                    </a>
+                                </p>
+
+                                <p class="u-align-center">
+                                    <a href="/settei/browser/opera/index.html" class="c-btn c-btn--detail p-panel-button">
+                                        Opera
+                                    </a>
+                                </p>
+                            </div>
+                        </section>
+                        <section class="c-col__item c-col--sp1__item c-col--pc2__item c-panel">
+                            <div class="c-panel__content">
+                                <h2 class="u-txt-weight-bold u-align-center u-mb20">Mac-OS</h2>
+
+                                <p class="u-align-center u-mb20">
+                                    <a href="/settei/browser/safari/index.html" class="c-btn c-btn--detail p-panel-button">
+                                        Safari
+                                    </a>
+                                </p>
+                                                        
+                            </div>
+                        </section>
+                     </div>
+                </div>
+            </div>
+        <section class="p-related-links u-mb30">
+                <div class="p-related-links__content">
+
+                    <h2 class="c-h c-h--lv3">関連リンク</h2>
+                    <ul class="p-list">
+                        <li>
+                            <a class="c-link c-link-detail" href="https://support.biglobe.ne.jp/news/news581.html">
+                                【お知らせ】BIGLOBE Webサイトの常時SSL化対応について
+                            </a>
+                        </li>
+                        <li>
+                            <a class="c-link c-link-detail" href="https://support.biglobe.ne.jp/news/news603.html">
+                                【お知らせ】クレジットカード情報入力ページの暗号化方式「TLS1.0」の無効化について
+                            </a>
+                        </li>                       
+                    </ul>
+        </div>
+    </section>
+</div>
+            <!-- 解決ナビここから -->
+        <div class="p-contents-order__marin-search">
+            <div class="p-marin-search">
+    <div id="fall_area" class="p-marin-search__content">
+
+        <div class="p-marin-search__content__title">まりんの<br class="u-hide-sp">解決ナビ</div>
+
+        <div class="p-marin-search__content__main">
+            <p class="u-mb10 p-marin-search__intro">BIGLOBE内のお探しの情報に<span class="u-txt-phrase">ご案内します</span></p>
+
+            <form name="search_form" action="https://search.support.biglobe.ne.jp/" method="GET"
+                  onsubmit="return mysearch_https(this);">
+
+                <div class="p-marin-search__form">
+                    <div class="p-marin-search__form__text">
+                        <input type="text" name="kw" value=""
+                               onfocus="if(this.defaultValue==this.value)this.value=''" maxlength="100"
+                               placeholder="例：メール 設定">
+                        <input type="hidden" name="ie" value="u">
+                    </div>
+                    <div class="p-marin-search__form__button">
+                        <button type="submit">検索</button>
+                    </div>
+                </div>
+            </form>
+            <!-- // まりんの検索ナビ用 -->
+            <script type="text/javascript">
+                (function () {
+                    var da = document.createElement('script');
+                    da.type = 'text/javascript';
+                    da.async = true;
+                    if ('https:' == document.location.protocol) {
+                        da.src = 'https://rsv.dga.jp/s/biglobe2/search_tool_n3.js';
+                    } else {
+                        da.src = 'http://cache.dga.jp/s/biglobe2/search_tool_n3.js';
+                    }
+                    var sc = document.getElementsByTagName('script')[0];
+                    sc.parentNode.insertBefore(da, sc);
+                })();
+            </script>
+            <script src="/v3/js/util/fall.js" charset="utf-8"></script>
+        </div>
+    </div>
+</div>
+        </div>
+        <!-- 解決ナビここまで -->
+    </main>
+</div>
+<!--コンテンツここまで-->
+
+<!--フッターここから-->
+<div class="p-outer-footer">
+    <footer id="v3-footer">
+<div class="c-v3-footer">
+<a href="#" data-move-to><span id="footer_pagetop" class="c-v3-footer__pagetop"></span></a>
+<div class="c-v3-footer__nav-container">
+<div class="c-v3-footer__nav">
+<ul class="c-v3-footer__nav1">
+<li class="c-v3-footer__nav1__item"><a href="https://join.biglobe.ne.jp/ftth/?cl=foot_ftth" class="c-v3-footer__nav1-title-container">
+<span class="c-v3-footer__nav1-title">光回線</span>
+</a>
+</li>
+<li class="c-v3-footer__nav1__item"><a href="https://join.biglobe.ne.jp/iphone/?cl=foot_iphone" class="c-v3-footer__nav1-title-container">
+<span class="c-v3-footer__nav1-title">iPhone</span>
+</a>
+</li>
+<li class="c-v3-footer__nav1__item"><a href="https://join.biglobe.ne.jp/mobile/?cl=foot_mobile" class="c-v3-footer__nav1-title-container">
+<span class="c-v3-footer__nav1-title">格安SIM/スマホ</span>
+</a>
+</li>
+<li class="c-v3-footer__nav1__item"><a href="https://join.biglobe.ne.jp/mobile/wimax/?cl=foot_wimax" class="c-v3-footer__nav1-title-container">
+<span class="c-v3-footer__nav1-title">WiMAX</span>
+</a>
+</li>
+<li class="c-v3-footer__nav1__item"><a href="https://join.biglobe.ne.jp/service/?cl=foot_service" class="c-v3-footer__nav1-title-container">
+<span class="c-v3-footer__nav1-title">各種サービス</span>
+</a>
+</li>
+<li class="c-v3-footer__nav1__item"><a href="https://support.biglobe.ne.jp/?cl=foot_support" class="c-v3-footer__nav1-title-container">
+<span class="c-v3-footer__nav1-title">会員サポート</span>
+</a>
+</li>
+</ul>
+<ul class="c-v3-footer__nav2">
+<li class="c-v3-footer__nav2__item">
+<a href="https://join.biglobe.ne.jp/sitemap.html?cl=foot_map_01" class="c-v3-footer__nav2__link">接続サービス一覧</a>
+</li>
+<li class="c-v3-footer__nav2__item">
+<a href="https://join.biglobe.ne.jp/campaign/?cl=foot_campaign" class="c-v3-footer__nav2__link">キャンペーン情報</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="c-v3-footer__out-container">
+<ul class="c-v3-footer__out">
+<li class="c-v3-footer__out-item">
+<a href="https://www.biglobe.co.jp/?cl=foot_futility_corp">会社概要</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://www.biglobe.co.jp/pressroom/?cl=foot_futility_news">ニュースリリース</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://www.biglobe.co.jp/recruit/?cl=foot_futility_recruit">採用情報</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://www.biglobe.ne.jp/?cl=foot_utility_portal" target=&#34;_blank&#34;>BIGLOBEトップ</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://biz.biglobe.ne.jp/?cl=foot_office" target=&#34;_blank&#34;>法人向けサービス</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://mypage.sso.biglobe.ne.jp/?cl=foot_futility_mypage" target=&#34;_blank&#34;>会員ログイン</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://join.biglobe.ne.jp/sitemap.html?cl=foot_futility_sitemap">サイトマップ</a>
+</li>
+</ul>
+<ul class="c-v3-footer__out">
+<li class="c-v3-footer__out-item">
+<a href="https://www.biglobe.ne.jp/privacy.html?cl=foot_futility_privacy">個人情報保護ポリシー</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://www.biglobe.ne.jp/cookie.html?cl=foot_futility_cookie">Cookieポリシー</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://support.biglobe.ne.jp/tokusyo.html?cl=foot_futility_tokusyo">特定商取引法に基づく表記</a>
+</li>
+<li class="c-v3-footer__out-item">
+<a href="https://support.biglobe.ne.jp/kobutsusyo.html?cl=foot_futility_kobutsusyo">古物営業法に基づく表記</a>
+</li>
+</ul>
+</div><div class="c-v3-footer__bottom">
+<div class="c-v3-footer__bottom__biglobe">
+<div class="c-v3-footer__bottom__biglobe__logo">
+<a href="https://support.biglobe.ne.jp">
+<img src="/v3/image/header/biglobe.png" alt="BIGLOBE">
+</a>
+</div>
+<div class="c-v3-footer__bottom__biglobe__security">
+<ul>
+<li class="c-v3-footer__bottom__security-icon--p">
+<a href="https://privacymark.jp/" target="_blank">
+<img src="/v3/image/footer/p-mark.gif" alt="プライバシーマーク">
+</a>
+</li>
+<li class="c-v3-footer__bottom__security-icon--isp">
+<a href="https://www.biglobe.ne.jp/safesecurity.html" target="_blank">
+<img src="/v3/image/footer/isp.gif" alt="インターネット接続サービス安全・安心マーク">
+</a>
+</li>
+</ul>
+</div>
+<div class="c-v3-footer__bottom__biglobe__copyright">
+
+<small><span lang="en">&copy;</span>BIGLOBE Inc. 1996-2019</small>
+</div>
+</div>
+<div class="c-v3-footer__bottom__safety"></div>
+<div class="c-v3-footer__bottom__sns-container">
+<ul class="c-v3-footer__bottom__sns">
+<li class="c-v3-footer__bottom__sns-icon">
+<a href="https://twitter.com/biglobe" target="_blank">
+<img src="/v3/image/footer/twitter.png" alt="Twitter">
+</a>
+</li>
+<li class="c-v3-footer__bottom__sns-icon">
+<a href="https://www.facebook.com/BIGLOBE/" target="_blank">
+<img src="/v3/image/footer/facebook.png" alt="Facebook">
+</a>
+</li>
+<li class="c-v3-footer__bottom__sns-icon">
+<a href="https://www.youtube.com/user/BIGLOBEchannel" target="_blank">
+<img src="/v3/image/footer/youtube.png" alt="YouTube">
+</a>
+</li>
+</ul></div></div>
+</div>
+</footer><!-- Google Tag Manager -->
+<!-- join -->
+<script>
+var dataLayer = dataLayer || [];
+</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WHG7WT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHG7WT');</script>
+<!-- END/ join -->
+<!-- support -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-NKR9X6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+w[l] = w[l] || [];
+w[l].push({
+'gtm.start': new Date().getTime(), event: 'gtm.js'
+});
+var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+j.async = true;
+j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-NKR9X6');</script>
+<!-- End support -->
+<!-- End Google Tag Manager -->
+</div>
+<!--フッターここまで-->
+<script src="/v3/js/common.js" charset="utf-8"></script>
+
+</body>
+</html>
